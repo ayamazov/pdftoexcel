@@ -1,0 +1,197 @@
+{
+  "account": "7451-54",
+  "currency": "ITL",
+  "axes": {
+    "axis_1_saldo_chain": {
+      "closed": 0,
+      "deltas": [
+        {
+          "statement": "1997-03-31",
+          "expected": 195641498,
+          "computed": 330951057,
+          "delta": -135309559,
+          "rows_count": 39
+        },
+        {
+          "statement": "1998-03-31",
+          "expected": 195641498,
+          "computed": 193776148,
+          "delta": 1865350,
+          "rows_count": 2
+        },
+        {
+          "statement": "1998-06-30",
+          "expected": 149260043,
+          "computed": 197991498,
+          "delta": -48731455,
+          "rows_count": 3
+        },
+        {
+          "statement": "1998-09-30",
+          "expected": 73249322,
+          "computed": 81360043,
+          "delta": -8110721,
+          "rows_count": 2
+        },
+        {
+          "statement": "1998-12-31",
+          "expected": 201282859,
+          "computed": -110750678,
+          "delta": 312033537,
+          "rows_count": 3
+        }
+      ]
+    },
+    "axis_2_by_valuta": {
+      "1997-03-31": {
+        "1996-12-31": {
+          "dare": 2000000,
+          "avere": 0,
+          "count": 1
+        },
+        "1997-01-06": {
+          "dare": 38866000,
+          "avere": 0,
+          "count": 1
+        },
+        "1997-01-07": {
+          "dare": 18500000,
+          "avere": 156000000,
+          "count": 2
+        },
+        "1997-01-08": {
+          "dare": 26740704,
+          "avere": 0,
+          "count": 4
+        },
+        "1997-01-11": {
+          "dare": 10000000,
+          "avere": 0,
+          "count": 1
+        },
+        "1997-01-09": {
+          "dare": 10000000,
+          "avere": 0,
+          "count": 1
+        },
+        "1997-01-13": {
+          "dare": 3400000,
+          "avere": 0,
+          "count": 1
+        },
+        "1997-01-14": {
+          "dare": 137385610,
+          "avere": 0,
+          "count": 6
+        },
+        "1997-01-15": {
+          "dare": 24622000,
+          "avere": 0,
+          "count": 4
+        },
+        "1997-01-16": {
+          "dare": 19042000,
+          "avere": 0,
+          "count": 5
+        },
+        "1997-01-17": {
+          "dare": 5509000,
+          "avere": 0,
+          "count": 3
+        },
+        "1997-01-20": {
+          "dare": 4911000,
+          "avere": 0,
+          "count": 2
+        },
+        "1997-01-19": {
+          "dare": 26159000,
+          "avere": 0,
+          "count": 7
+        },
+        "1997-01-27": {
+          "dare": 664800,
+          "avere": 0,
+          "count": 1
+        }
+      },
+      "1998-03-31": {
+        "1998-01-01": {
+          "dare": 0,
+          "avere": 100000,
+          "count": 1
+        },
+        "1998-01-14": {
+          "dare": 0,
+          "avere": 1765350,
+          "count": 1
+        }
+      },
+      "1998-06-30": {
+        "1998-03-20": {
+          "dare": 150000,
+          "avere": 0,
+          "count": 1
+        },
+        "1998-03-31": {
+          "dare": 1500000,
+          "avere": 0,
+          "count": 1
+        },
+        "1998-04-02": {
+          "dare": 700000,
+          "avere": 0,
+          "count": 1
+        }
+      },
+      "1998-09-30": {
+        "1998-07-01": {
+          "dare": 100000,
+          "avere": 0,
+          "count": 1
+        },
+        "1998-07-31": {
+          "dare": 0,
+          "avere": 68000000,
+          "count": 1
+        }
+      },
+      "1998-12-31": {
+        "1998-10-01": {
+          "dare": 6000000,
+          "avere": 0,
+          "count": 1
+        },
+        "1998-10-02": {
+          "dare": 5000000,
+          "avere": 0,
+          "count": 1
+        },
+        "1998-11-02": {
+          "dare": 0,
+          "avere": 195000000,
+          "count": 1
+        }
+      }
+    },
+    "axis_3_statement_chain": {
+      "gaps": []
+    },
+    "axis_4_sbilancio": {
+      "checked": 5,
+      "missing": 0
+    },
+    "axis_5_data_valuta": {
+      "checked": 0,
+      "missing": 5
+    }
+  },
+  "errors": [],
+  "verified": false,
+  "data_integrity": {
+    "rows_checksum": "211461e69818f4c7ef769f23cfc59e1337b229bad3b6bf88a050cc17b6faf50c",
+    "row_count": 49,
+    "statement_count": 5
+  },
+  "timestamp": "2026-09-07T13:26:49.934864"
+}
