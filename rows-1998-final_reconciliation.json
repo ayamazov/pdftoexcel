@@ -1,0 +1,139 @@
+{
+  "account": "7451-54",
+  "currency": "ITL",
+  "axes": {
+    "axis_1_saldo_chain": {
+      "closed": 4,
+      "deltas": []
+    },
+    "axis_2_by_valuta": {
+      "1998-03-31": {
+        "1996-12-31": {
+          "dare": 2000000,
+          "avere": 0,
+          "count": 1
+        },
+        "1997-01-06": {
+          "dare": 38866000,
+          "avere": 0,
+          "count": 1
+        },
+        "1998-01-07": {
+          "dare": 0,
+          "avere": 156000000,
+          "count": 1
+        },
+        "1997-01-07": {
+          "dare": 18500000,
+          "avere": 0,
+          "count": 1
+        },
+        "1998-01-14": {
+          "dare": 90202460,
+          "avere": 0,
+          "count": 1
+        },
+        "1998-01-29": {
+          "dare": 0,
+          "avere": 6646042,
+          "count": 1
+        },
+        "1998-02-02": {
+          "dare": 0,
+          "avere": 63030636,
+          "count": 2
+        },
+        "1998-02-03": {
+          "dare": 12910000,
+          "avere": 0,
+          "count": 1
+        },
+        "1998-03-20": {
+          "dare": 150000,
+          "avere": 10000000,
+          "count": 2
+        },
+        "1998-03-31": {
+          "dare": 109538773,
+          "avere": 0,
+          "count": 1
+        }
+      },
+      "1998-06-30": {
+        "1998-03-31": {
+          "dare": 1500000,
+          "avere": 0,
+          "count": 1
+        },
+        "1998-04-02": {
+          "dare": 700000,
+          "avere": 0,
+          "count": 1
+        },
+        "1998-06-30": {
+          "dare": 0,
+          "avere": 48581455,
+          "count": 1
+        }
+      },
+      "1998-09-30": {
+        "1998-07-01": {
+          "dare": 100000,
+          "avere": 0,
+          "count": 1
+        },
+        "1998-07-31": {
+          "dare": 0,
+          "avere": 68000000,
+          "count": 1
+        },
+        "1998-09-30": {
+          "dare": 0,
+          "avere": 8110721,
+          "count": 1
+        }
+      },
+      "1998-12-31": {
+        "1998-09-28": {
+          "dare": 6000000,
+          "avere": 0,
+          "count": 1
+        },
+        "1998-10-02": {
+          "dare": 5000000,
+          "avere": 0,
+          "count": 1
+        },
+        "1998-11-02": {
+          "dare": 0,
+          "avere": 195000000,
+          "count": 1
+        },
+        "1998-12-31": {
+          "dare": 312033537,
+          "avere": 0,
+          "count": 1
+        }
+      }
+    },
+    "axis_3_statement_chain": {
+      "gaps": []
+    },
+    "axis_4_sbilancio": {
+      "checked": 4,
+      "missing": 0
+    },
+    "axis_5_data_valuta": {
+      "checked": 0,
+      "missing": 4
+    }
+  },
+  "errors": [],
+  "verified": true,
+  "data_integrity": {
+    "rows_checksum": "b9d5f0c27d0f0e1061a230e802cd212ad6b750bb6778848329ecdbcd515a7756",
+    "row_count": 22,
+    "statement_count": 4
+  },
+  "timestamp": "2026-09-07T13:36:46.003616"
+}

@@ -1,0 +1,64 @@
+{
+  "account": "7451-54",
+  "currency": "ITL",
+  "statements": [
+    {
+      "estratto_al": "1998-03-31",
+      "year": 1998,
+      "saldo_iniziale": 159150943,
+      "saldo_finale": 195641498,
+      "sbilancio_competenze": 4064078,
+      "rows": [
+        {"op": "1998-01-05", "val": "1996-12-31", "desc": "prelevamento", "dare": 2000000, "avere": null},
+        {"op": "1998-01-07", "val": "1997-01-06", "desc": "giroassegno", "dare": 38866000, "avere": null},
+        {"op": "1998-01-07", "val": "1998-01-07", "desc": "giroassegno", "dare": null, "avere": 156000000},
+        {"op": "1998-01-08", "val": "1997-01-07", "desc": "assegno", "dare": 18500000, "avere": null},
+        {"op": "1998-01-14", "val": "1998-01-14", "desc": "assegno", "dare": 90202460, "avere": null},
+        {"op": "1998-01-29", "val": "1998-01-29", "desc": "giroassegno", "dare": null, "avere": 6646042},
+        {"op": "1998-02-10", "val": "1998-02-02", "desc": "giroassegno", "dare": null, "avere": 60000000},
+        {"op": "1998-02-10", "val": "1998-02-02", "desc": "giroassegno", "dare": null, "avere": 3030636},
+        {"op": "1998-02-13", "val": "1998-02-03", "desc": "assegno", "dare": 12910000, "avere": null},
+        {"op": "1998-03-20", "val": "1998-03-20", "desc": "assegno", "dare": 150000, "avere": null},
+        {"op": "1998-03-30", "val": "1998-03-20", "desc": "versamento", "dare": null, "avere": 10000000},
+        {"op": "1998-03-31", "val": "1998-03-31", "desc": "varie", "dare": 109538773, "avere": null}
+      ]
+    },
+    {
+      "estratto_al": "1998-06-30",
+      "year": 1998,
+      "saldo_iniziale": 195641498,
+      "saldo_finale": 149260043,
+      "sbilancio_competenze": 3750,
+      "rows": [
+        {"op": "1998-04-01", "val": "1998-03-31", "desc": "assegno", "dare": 1500000, "avere": null},
+        {"op": "1998-04-02", "val": "1998-04-02", "desc": "assegno", "dare": 700000, "avere": null},
+        {"op": "1998-06-30", "val": "1998-06-30", "desc": "varie", "dare": null, "avere": 48581455}
+      ]
+    },
+    {
+      "estratto_al": "1998-09-30",
+      "year": 1998,
+      "saldo_iniziale": 149260043,
+      "saldo_finale": 73249322,
+      "sbilancio_competenze": 3468070,
+      "rows": [
+        {"op": "1998-07-01", "val": "1998-07-01", "desc": "assegno", "dare": 100000, "avere": null},
+        {"op": "1998-08-01", "val": "1998-07-31", "desc": "giroassegno", "dare": null, "avere": 68000000},
+        {"op": "1998-09-30", "val": "1998-09-30", "desc": "varie", "dare": null, "avere": 8110721}
+      ]
+    },
+    {
+      "estratto_al": "1998-12-31",
+      "year": 1998,
+      "saldo_iniziale": 73249322,
+      "saldo_finale": 201282859,
+      "sbilancio_competenze": 4131092,
+      "rows": [
+        {"op": "1998-10-01", "val": "1998-09-28", "desc": "assegno", "dare": 6000000, "avere": null},
+        {"op": "1998-10-02", "val": "1998-10-02", "desc": "assegno", "dare": 5000000, "avere": null},
+        {"op": "1998-11-02", "val": "1998-11-02", "desc": "giroassegno", "dare": null, "avere": 195000000},
+        {"op": "1998-12-31", "val": "1998-12-31", "desc": "varie", "dare": 312033537, "avere": null}
+      ]
+    }
+  ]
+}
