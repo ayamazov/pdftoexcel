@@ -11,6 +11,31 @@ Convert scanned Italian bank statement PDFs into the verified input workbook for
 
 **You produce the INPUT, not the analysis.** Deliver `originale` and `data valuta` only. `depurato`, `interessi e spese`, `solo spese`, `solo interessi`, `RICALCOLO` are the dominus's work — never generate them.
 
+## Start here — you were handed a PDF
+
+```bash
+python scripts/prep.py estratti.pdf
+```
+
+One command: inventory, low-res rasterize, header contact sheets. It prints the page
+geometry, whether the PDF is scanned, the contact sheets to read and their token cost,
+and the exact next commands. Read the sheets it names and nothing else.
+
+Then Step 3 onward below. Steps 1–3 are what `prep.py` already did — read them only if it
+failed or the PDF is unusual.
+
+## One PDF, one session
+
+**Start a new chat for each PDF.** Context is re-sent on every turn, so a session that has
+already converted one statement set carries that weight through the whole of the next one.
+Two PDFs in one chat is not twice the cost — it is worse than twice.
+
+Within a single conversion, staying in the same chat is correct: the crop boxes, the page
+classification and the reconciliation deltas all need to be in one place.
+
+The exception is a **follow-up on a workbook you just built** — a mapping to confirm, one
+row to correct. That is cheap and belongs in the same chat. Converting another PDF does not.
+
 ## Three laws
 
 1. **Nothing ships until the arithmetic closes.** It reconciles to the printed SALDO FINALE to the exact Lira, or it has an error you have not found. Never round, never plug, never guess a digit. If it will not close, say so and name the row.
@@ -207,6 +232,16 @@ read by every script after it (`reconcile.py rows-*.json` globs them). Amounts a
 | `references/form-variants.md` | **first**, before deriving crop boxes — the variant may already be known |
 | `references/traps.md` | while transcribing, and whenever a delta appears |
 | `references/output-format.md` | at Step 6, and whenever a descrizione needs mapping |
+
+## Scripts
+
+| Script | Does |
+|---|---|
+| `prep.py` | PDF → inventory + contact sheets, one command. Run first. |
+| `classify_sheet.py` | stack crops from many pages into one budgeted image |
+| `compact.py` | compose one page's columns, or montage doubtful rows, to a token budget |
+| `reconcile.py` | all five axes over `rows-*.json`; prints deltas only, exit 1 on failure |
+| `build_workbook.py` | `rows-*.json` → `ricostruzione.xlsx` |
 
 ## Extending this skill
 
